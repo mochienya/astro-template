@@ -15,11 +15,14 @@
     "astro": "^5.5.5"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@types/bun": "^1.2.8",
     "eslint": "^9.23.0",
     "lint-staged": "^15.5.0",
     "prettier": "^3.5.3",
     "sass": "^1.86.0",
     "simple-git-hooks": "^2.12.1",
+    "typescript": "^5.8.2",
     "unocss": "^66.1.0-beta.7"
   },
   "simple-git-hooks": {
