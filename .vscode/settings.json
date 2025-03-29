@@ -1,0 +1,28 @@
+{
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.excludeGitIgnore": true,
+  "explorer.fileNesting.patterns": {
+    "astro.config.mjs": ".pages.yml, eslint.config.js, .prettierrc.yml, .editorconfig, README.md, tsconfig.json, package.json, bun.lock, .gitignore, uno.config.ts,",
+    "package.json": ""
+  },
+
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "html",
+    "markdown",
+    "json",
+    "json5",
+    "yaml",
+    "scss",
+    "astro"
+  ]
+}
